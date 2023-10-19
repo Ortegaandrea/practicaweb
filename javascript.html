@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function saluda(nombre, apellido) {
+            alert("hola " + nombre, apellido);
+            alert("yo bien, ¿y tú?");
+            asignatura = "programación"; // tipo texto
+            edad = 69; // tipo entero
+            estudiante = true; // tipo booleano
+            alert("Estudio " + asignatura)
+            edad = 71 - edad;
+            }
+      
+    </script>
+</head>
+<body>
+   <h2>Pruebas javascript</h2>
+   <button type="button" onclick="saluda('Andrea , Ortega')">Saludame</button>
+   <button type="button" onclick="document.getElementById('manolo').style.fontSize='35px'">Hazlo grande</button>
+   <button type="button" onclick="document.getElementById('manolo').style.fontSize='10px'">Hazlo pequeño</button>
+
+
+
+   <p id="manolo">Pulsa el botón</p>
+   <button type="button" onclick="alert('hola que tal')">Haz clíc aquí</button>
+   <button type="button" onclick="document.getElementById('manolo').innerHTML= 'soy manolo'">Haz clíc aquí</button>
+   <button type="button" onclick="document.getElementById('foto').src='img/belen.jfif'">Muestra a la belen</button>
+   <button type="button" onclick="document.getElementById('foto').src='img/chicote.jpg'">Muestra a chicote</button>
+   <img id="foto" src="img/belen.jfif" alt="">
+  
+</body>
+</html>
